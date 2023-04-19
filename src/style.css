@@ -1,0 +1,33 @@
+select,
+textarea,
+button {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid white;
+  outline: none;
+}
+
+button {
+  background-color: cornflowerblue;
+  color: white;
+}
+button:active {
+  background-color: rgb(55, 95, 170);
+}
+
+body {
+  background-image: linear-gradient(to top, #1f185f 0%, #8bb5fd 100%);
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  justify-content: center;
+  height: 90vh;
+}
